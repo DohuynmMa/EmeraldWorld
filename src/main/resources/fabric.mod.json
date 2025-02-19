@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "emeraldworld",
+  "version": "${version}",
+  "name": "EmeraldWorld",
+  "description": "owo",
+  "authors": [
+    "NurlMe"
+  ],
+  "contact": {
+    "repo": "https://github.com/NurlMe/emeraldworld"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/emeraldworld/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "top.nurlme.emeraldworld.client.EmeraldWorldClient"
+    ],
+    "main": [
+      "top.nurlme.emeraldworld.EmeraldWorld"
+    ]
+  },
+  "mixins": [
+    "emeraldworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
